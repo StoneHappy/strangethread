@@ -1,2 +1,4 @@
 #pragma once
-bool test();
+namespace testStrangeThread {
+    int main();
+}

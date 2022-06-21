@@ -2,7 +2,7 @@
 
 #include <Core/test.h>
 
-TEST(ExampleTest, SimpleFirstTest)
+TEST(ExampleTest, testStrangeThread)
 {
-	EXPECT_TRUE(test());
+	testStrangeThread::main();
 }
